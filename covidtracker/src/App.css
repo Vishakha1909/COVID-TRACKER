@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color:lightcyan;
+  background-color:lightsalmon;
 }
 
 .app {
@@ -12,17 +12,20 @@ body {
   padding: 20px;
 }
 
+.app_left {
+  flex: 0.9;
+}
 
 .app_header {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
   justify-content: space-between;
-  background-color: #f5f6fa;
+  
 }
 
 .app_dropdown {
-  background-color: lightgray;
+  background-color: #f5f6fa;
   border-radius: 50px;
 }
 
