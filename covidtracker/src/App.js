@@ -5,6 +5,7 @@ import InfoBox from './InfoBox';
 import Map from './Map';
 import Table from './Table'
 import {sortData} from './util.js'
+import LineGraph from './LineGraph'
 //https://disease.sh/v3/covid-19/countries
 
 function App() {
@@ -87,9 +88,10 @@ function App() {
 
       <Card className="app_right">
         <CardContent>
-          <h3>Live Cases</h3>
+          <h1>COUNTRY WISE CASES</h1>
           <Table countries={tableData} />
-          <h3>Graph</h3>
+          <LineGraph>
+          </LineGraph>
           {/*Table*/}
 
           {/*Graph*/}
